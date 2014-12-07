@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/item_sat" android:title="Sat"></item>
+    <item android:id="@+id/item_map" android:title="Map"></item>
+    <item android:id="@+id/item_back" android:title="Back"></item>
+    
+
+</menu>

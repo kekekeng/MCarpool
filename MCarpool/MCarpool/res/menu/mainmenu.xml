@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/preferences" android:title="Login"></item>
+    <item android:id="@+id/map_option" android:title="Satellite">
+        <menu>
+            <item android:id="@+id/map_sat" android:title="Satellite"/>
+            <item android:id="@+id/map_normal" android:title="Map"/>
+        </menu>
+    </item>
+    <item android:id="@+id/info_in" android:title="into Database">
+        <menu>
+            <item android:id="@+id/driver_info" android:title="Driver info into DB"/>
+            <item android:id="@+id/passenger_info" android:title="Passenger info into DB"/>
+        </menu>
+    </item>
+    <item android:id="@+id/torch" android:title="Light">
+        <menu>
+            <item android:id="@+id/TurnOnLight" android:title="Turn On Light"/>
+            <item android:id="@+id/TurnOffLight" android:title="Turn Off Light"/>
+        </menu>
+    </item>
+    <item android:id="@+id/item5" android:title="Exit"></item>
+</menu>
